@@ -1,0 +1,36 @@
+{
+
+    "type": "origins:multiple",
+
+    "activate": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.secondary_active"
+        },
+        "cooldown": 200,
+        "entity_action": {
+            "type": "origins:trigger_cooldown",
+            "power": "*:*_duration"
+        }
+    },
+    "duration": {
+        "type": "origins:cooldown",
+        "cooldown": 40,
+        "hud_render": {
+            "bar_index": 5
+        }
+    },
+
+    "flight": {
+        "type": "origins:creative_flight",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_duration",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "name": "Flight",
+    "description": "Use your Secondary Button to fly for a short time."
+
+}

@@ -1,0 +1,15 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:wither_skull",
+    "cooldown": 50,
+    "hud_render": {
+        "should_render": true
+    },
+    "tag": "{pickup:0b}",
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    },
+    "name": "Wither Skull",
+    "description": "Use your Primary Button to fire a wither skull."
+}

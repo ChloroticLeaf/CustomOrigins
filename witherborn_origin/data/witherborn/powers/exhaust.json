@@ -1,7 +1,0 @@
-{
-    "type": "origins:exhaust",
-    "interval": 20,
-    "exhaustion": 1.3,
-    "name": "More Exhaustion",
-    "description": "Your powerfull body requires more food to survive."
-}

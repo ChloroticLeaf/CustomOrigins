@@ -1,8 +1,0 @@
-{
-    "type": "origins:effect_immunity",
-    "effects": [
-        "minecraft:wither"
-    ],
-    "name": "Wither Immunity",
-    "description": "You are immune to the withering debuff."
-}

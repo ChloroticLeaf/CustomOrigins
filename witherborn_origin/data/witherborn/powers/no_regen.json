@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_healing",
+    "modifier": {
+        "operation": "multiply_total_multiplicative",
+        "amount": -0.7
+    },
+    "name": "Less Healing",
+    "description": "Your powerfull body requires 70% more to heal it."
+}

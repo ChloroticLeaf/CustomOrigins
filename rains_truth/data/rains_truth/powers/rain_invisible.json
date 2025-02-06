@@ -1,7 +1,0 @@
-{
-    "type": "origins:model_color",
-    "alpha": 0.15,
-    "condition": {
-        "type": "origins:in_rain"
-    }
-}

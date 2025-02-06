@@ -1,8 +1,0 @@
-{
-    "type": "origins:modify_swim_speed",
-    "modifier": {
-        "id": "1",
-        "operation": "ADD_VALUE",
-        "amount": -0.003
-    }
-}

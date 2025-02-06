@@ -1,0 +1,17 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:wind_charge",
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": true
+    },
+    "count": 4,
+    "interval": 5,
+    "tag": "{pickup:0b}",
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": true
+    },
+    "name": "Wind Shot",
+    "description": "Press the secondary key to shoot 4 wind blasts."
+}

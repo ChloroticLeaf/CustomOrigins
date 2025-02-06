@@ -1,0 +1,35 @@
+{
+	"type": "origins:multiple",
+	"toggle": {
+		"type": "origins:toggle",
+		"active_by_default": true,
+		"key": {
+			"key": "key.pickItem"
+		}
+	},
+	"air_walk": {
+		"type": "origins:grounded",
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:power_active",
+					"power": "*:*_toggle"
+				},
+				{
+					"type": "origins:in_rain"
+				}
+			]
+		}
+	},
+	"water_walk": {
+		"type": "origins:walk_on_fluid",
+		"fluid": "minecraft:water",
+		"condition": {
+			"type": "origins:power_active",
+			"power": "*:*_toggle"
+		}
+	},
+	"name": "Rain Walk",
+    "description": "You have the ability to walk on raindrops. (Use the Pick Item key to toggle.)"
+}

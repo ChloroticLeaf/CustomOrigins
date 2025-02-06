@@ -1,0 +1,10 @@
+{
+    "type": "origins:model_color",
+    "alpha": 0.15,
+    "condition": {
+        "type": "origins:in_rain"
+    },
+    "name": "Rain Cloak",
+    "description": "The rain hides you, giving you near invisibility."
+}
+

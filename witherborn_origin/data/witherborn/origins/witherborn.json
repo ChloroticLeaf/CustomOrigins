@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"witherborn:wither_damage",
+		"witherborn:darkness",
+		"witherborn:wither_immunity",
+		"witherborn:float",
+		"witherborn:projectile",
+		"witherborn:shield_explosion",
+		"witherborn:shield_projectile",
+		"witherborn:shield_overlay",
+		"witherborn:no_regen",
+		"witherborn:exhaust"
+
+	],
+	"id": "minecraft:wither_rose",
+	"order": 1,
+	"impact": 3,
+	"name": "Witherborn",
+	"description": "Test (im lazy)"
+}
